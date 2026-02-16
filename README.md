@@ -18,14 +18,18 @@ Mus musculus
 Quality control was performed using FastQC on compressed FASTQ files (.fastq.gz).
 Reports were generated in HTML and ZIP format for each sample.
 
-
 ## Data Type
 Paired-end RNA sequencing
 
 ## Platform
 Analysis performed on Ubuntu Linux using terminal-based tools.
-
 Raw FASTQ and BAM files are not included due to size limitations.
+
+## Reference Genome
+Species: Mus musculus  
+Genome assembly: GRCm39  
+The reference genome (FASTA) and corresponding gene annotation (GTF) were downloaded from Ensembl.
+The genome FASTA file was indexed using HISAT2 before alignment.
 
 ## Strandedness Handling
 Library type was inferred using Salmon (-l A).
