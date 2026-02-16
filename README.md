@@ -14,6 +14,11 @@ This repository contains the RNA-seq preprocessing workflow used in our study.
 ## Organism
 Mus musculus
 
+## Quality Control
+Quality control was performed using FastQC on compressed FASTQ files (.fastq.gz).
+Reports were generated in HTML and ZIP format for each sample.
+
+
 ## Data Type
 Paired-end RNA sequencing
 
