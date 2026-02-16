@@ -34,6 +34,7 @@ The genome FASTA file was indexed using HISAT2 before alignment.
 ## Strandedness Handling
 Library type was inferred using Salmon (-l A).
 The featureCounts parameter (-S) was adjusted accordingly:
+
 ISR  →  -S 2  
 ISF  →  -S 1  
 Unstranded → -S 0
