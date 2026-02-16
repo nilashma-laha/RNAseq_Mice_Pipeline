@@ -21,3 +21,10 @@ Paired-end RNA sequencing
 Analysis performed on Ubuntu Linux using terminal-based tools.
 
 Raw FASTQ and BAM files are not included due to size limitations.
+
+## Strandedness Handling
+Library type was inferred using Salmon (-l A).
+The featureCounts parameter (-S) was adjusted accordingly:
+ISR  →  -S 2  
+ISF  →  -S 1  
+Unstranded → -S 0
