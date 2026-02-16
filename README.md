@@ -6,9 +6,9 @@ This repository contains the RNA-seq preprocessing workflow used in our study.
 
 ## Workflow Overview
 
-1. Quality control using FastQC
+1. Quality control using FastQC 0.11.9
 2. Library strandedness inference using Salmon
-3. Alignment using HISAT2
+3. Alignment using HISAT2.1.0
 4. Gene quantification using featureCounts
 
 ## Organism
